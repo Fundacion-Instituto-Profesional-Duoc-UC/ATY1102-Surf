@@ -1,0 +1,7 @@
+# Robots.txt para el proyecto de Analizador de Oleaje
+# Permite a todos los agentes de usuario (crawlers) acceder al sitio.
+User-agent: *
+
+# Desautoriza el acceso a la carpeta que contiene los archivos de texto
+# para evitar que los datos sean indexados por los motores de búsqueda.
+Disallow: /*.txt

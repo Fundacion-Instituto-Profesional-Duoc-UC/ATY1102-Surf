@@ -1,0 +1,76 @@
+body {
+    background-color: #e9f5ff; /* Un azul claro para un toque playero */
+    color: #495057;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+.logo {
+    max-height: 80px;
+    margin-bottom: 20px;
+}
+
+h1, h2 {
+    color: #007bff;
+    font-weight: bold;
+}
+
+.file-upload-section {
+    background-color: #d1ecf1;
+    border: 1px solid #bee5eb;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.file-upload-section h5 {
+    color: #0c5460;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+.table-custom {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.table-custom thead {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.table-custom th {
+    text-align: center;
+}
+
+.table-custom tbody tr:hover {
+    background-color: #f8f9fa;
+}
+
+/* Clases para colorear las calificaciones de surf */
+.table-custom tbody tr td:last-child {
+    font-weight: bold;
+}
+
+.table-custom tbody tr td:last-child:contains('Ideal') {
+    color: #28a745; /* Verde para "Ideal" */
+}
+
+.table-custom tbody tr td:last-child:contains('Precaución') {
+    color: #ffc107; /* Amarillo para "Precaución" */
+}
+
+/* Nota: La pseudoclase :contains() no es estándar en CSS. Se manejará en JS. */
